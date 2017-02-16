@@ -20,3 +20,9 @@ npm start
 
 Any changes you make to files in the `js/` directory will cause the server to
 automatically rebuild the app and refresh your browser.
+
+## Using
+
+To use, you'll need to start both this server and the [graphql server](https://github.com/collinksmith/naturebox-graphql-server).
+
+There is one route set up, showing a product name and its reviews. You need to provide the provide product id in the url params, like so: `localhost:4000?id=437`.
