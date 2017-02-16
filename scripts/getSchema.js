@@ -7,7 +7,7 @@ import http from 'http';
 function callback(res) {
   res.on('data', (chunk) => {
     var schema = JSON.parse(chunk);
-    
+
     // Save JSON of full schema introspection for Babel Relay Plugin to use
     fs.writeFileSync(
       path.join(__dirname, '../data/schema.json'),

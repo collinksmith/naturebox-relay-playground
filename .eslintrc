@@ -1,7 +1,8 @@
 {
   "parser": "babel-eslint",
   "rules": {
-    "comma-dangle": 0,
+    "comma-dangle": [2, "always-multiline"],
+    "no-trailing-spaces": 2,
   },
   "env": {
     "es6": true,
